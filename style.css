@@ -18,16 +18,16 @@ h4 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h4 {
     font-family: Papyrus, fantasy;
-    font-size: 30px;
+    font-size: 40px;
     color: hsl(180,100%,50%);
     text-shadow: hsl(100,100%,100%);
     }
