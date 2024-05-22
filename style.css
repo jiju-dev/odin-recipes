@@ -10,27 +10,38 @@ h2,
 h3,
 h4 {
     font-family: Norse-Bold, Papyrus, fantasy;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
-    text-align: center
+    text-align: center;
+    color: hsl(100,100%,100%);
+    text-shadow: 3px 3px 3px hsl(180,100%,50%);
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h4 {
-    font-size: 20px;
+    font-family: Papyrus, fantasy;
+    font-size: 30px;
+    color: hsl(180,100%,50%);
+    text-shadow: hsl(100,100%,100%);
+    }
+ 
+ol {
+    font-family: Papyrus, fantasy;
+    font-size: 25px;
 }
 
 ul {
     list-style-type: none;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Papyrus, fantasy;
+    font-size: 25px;
 }
 
 .center {
@@ -43,4 +54,11 @@ ul {
     font-family: Papyrus, fantasy;
     font-size: 25px;
     font-weight: 700;
+}
+
+p {
+    font-family: Papyrus, fantasy;
+    font-size: 25px;
+    color: hsl(180,100%,50%);
+    text-shadow: hsl(210,100%,50%) 3px 3px 3px;
 }
