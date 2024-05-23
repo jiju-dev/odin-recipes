@@ -29,8 +29,8 @@ h4 {
     font-family: Papyrus, fantasy;
     font-size: 40px;
     color: hsl(180,100%,50%);
-    text-shadow: 2px 2px 2px hsl(100,100%,100%);
-}
+    text-shadow: hsl(100,100%,100%);
+    }
  
 ol {
     font-family: Papyrus, fantasy;
