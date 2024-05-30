@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+#main-image {
+    margin-bottom: 100px;
+}
+
+#desserts {
+    margin-bottom: 100px;
+}
+
 h1,
 h2,
 h3,
