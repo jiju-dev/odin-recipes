@@ -3,6 +3,7 @@
 * {
     color: hsl(100,100%,100%);
     background-color: hsl(0,100%,0%);
+    box-sizing: border-box;
 }
 
 h1,
@@ -17,12 +18,18 @@ h4 {
     text-shadow: 3px 3px 3px hsl(180,100%,50%);
 }
 
+h1 {
+    margin: 75px;
+}
+
 h2 {
     font-size: 60px;
+    padding: 25px;
 }
 
 h3 {
     font-size: 50px;
+    padding: 20px;
 }
 
 h4 {
@@ -30,11 +37,13 @@ h4 {
     font-size: 40px;
     color: hsl(180,100%,50%);
     text-shadow: 2px 2px 2px hsl(100,100%,100%);
+    margin: 15px;
 }
  
 ol {
     font-family: Papyrus, fantasy;
     font-size: 25px;
+    margin: 20px
 }
 
 ul {
@@ -42,6 +51,7 @@ ul {
     text-align: center;
     font-family: Papyrus, fantasy;
     font-size: 25px;
+    margin: 20px
 }
 
 .center {
@@ -61,4 +71,5 @@ p {
     font-size: 25px;
     color: hsl(180,100%,50%);
     text-shadow: hsl(210,100%,50%) 3px 3px 3px;
+    margin: 20px
 }
