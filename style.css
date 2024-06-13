@@ -5,13 +5,21 @@
     background-color: hsl(0,100%,0%);
     box-sizing: border-box;
 }
+#odin-logo {
+    display: content-box;
+    margin-top: 50px
+}
 
 #main-image {
     margin-bottom: 100px;
+    border: 20px double white;
 }
 
 #desserts {
+    box-sizing: content-box;
     margin-bottom: 100px;
+    margin-top: 20px;
+    border: 20px double white;
 }
 
 h1,
@@ -27,7 +35,8 @@ h4 {
 }
 
 h1 {
-    margin: 75px;
+    margin: 50px;
+    margin-top: 25px
 }
 
 h2 {
@@ -69,9 +78,11 @@ ul {
 }
 
 .recipes {
+    display: block;
     font-family: Papyrus, fantasy;
     font-size: 25px;
     font-weight: 700;
+    margin: 20px;
 }
 
 p {
@@ -79,5 +90,9 @@ p {
     font-size: 25px;
     color: hsl(180,100%,50%);
     text-shadow: hsl(210,100%,50%) 3px 3px 3px;
-    margin: 20px
+    margin: 20px;
+}
+
+#highlight {
+    color: white;
 }
